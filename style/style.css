@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter';
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/Inter-Regular.ttf);
+}
+
+.wrap {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heder {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    color: black;
+}
+
+.sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 633px;
+    height: 685px;
+}
+
+.leto {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+
+.need {
+    display: block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #595959;
+}
+.t{
+    display: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: red;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 12px;
+    gap: 252px;
+    width: 277px;
+    height: 59px;
+    background: #FFFFFF;
+    border: 2px solid #949494;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.section1 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.in {
+    border-color: #4200FF;
+
+}
+
+.but {
+    width: 277px;
+    height: 59px;
+    background: #4200FF;
+    border: 2px solid #4200FF;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.r1 {
+    color: #4200FF;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.active {
+    background-color: red;
+    color: red;
+}
+
+@media(max-width:660px) {
+    .sec {
+        width: 277px;
+        height: 1070px;
+    }
+
+    .heder {
+        width: 277px;
+        font-size: 13px;
+    }
+
+    .wrap {
+        width: 100%;
+        height: 1240px;
+    }
+}
